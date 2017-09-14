@@ -1,0 +1,24 @@
+public class Splash{
+
+//tesing with main
+
+public static void main(String[] args){
+
+//call splash screen	
+splashScreen();
+}
+
+//this function prints out a custom splash screen
+//remove static later
+
+public static void splashScreen(){
+System.out.println(" \n" 
++ "	____ ____ ____ _ _ _____ \n"
++ "	/ ___\\/ _ \\/ __\\/ \\ /|/ \\/ __/	\n"
++ "	| \\| / \\|| \\/|| |_||| || \\ \n"
++ "	\\___ || \\_/|| __/| | ||| || /_ \n "
++ "	\\____/\\____/\\_/ \\_/ \\|\\_/\\____\\ ");
+}
+
+
+}
