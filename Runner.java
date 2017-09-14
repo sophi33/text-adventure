@@ -6,6 +6,17 @@ public class Runner {
 
 public static void main(String[] args){
 
-//call splash screen	
-splashScreen();
-}
+	
+	
+	//call splash object
+	Splash splash = new Splash();
+	
+		//call splash screen	
+		splash.splashScreen();
+		
+		splash.the_endScreen();
+		}
+		
+	}
+		
+		
