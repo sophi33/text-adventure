@@ -32,7 +32,7 @@ public class Student extends Person {
 
 
 	//toString method
-	public String toString(){
+	publuc String toString(){
 		return super.toString() + " I am a student. My major is: " + this.major;
 	}
 

@@ -1,12 +1,6 @@
 /* this class runs the start of the program
 */
 
-
-
-import java.util.ArrayList;
-import java.util.Scanner;
-
-
 public class Runner {
 	//tesing with main
 
@@ -32,14 +26,15 @@ public static void main(String[] args){
 
 	System.out.println("Name: " + casey.getName());
 
-	Person mark = new Person("Mark", "cool guy", 45, "75");
+	Person mark = new Person("Mark", "Hedge Fund Manager", 45, "75");
 	mark.setHealth("33");
 	System.out.println("Name: " + casey.getName() + " " + casey.getAge() + " " + mark.getHealth());
 
 	//declare all objects at least one of each
 
-	Student student = new Student ();
-	Person fred = new  Person("Fred", "student", 19, "100");
+	Student student - new Student ();
+	Person casey = new  Person("Casey", "student", 19, "100");
+	Person mark = new  Person("Mark", "Hedge Fund Manager", 45, "75");
 
 	//declare array of type parent class
 	Person[] person = new Person[3];
@@ -52,20 +47,14 @@ public static void main(String[] args){
 
 	//print out each object in array
 
-	System.out.println(person[0]);
-	System.out.println(person[1]);
-	System.out.println(person[2]);
+	System.put.println(person[0]);
+	System.put.println(person[1]);
+	System.put.println(person[2]);
 
 
 
 
-	//Student student_casey = new Student("Casey", "Student", 19, "100");
-	
-	
-	
-	
-	
-
+	Student student = Person("Casey", "Student", 19, "100");
 	}
 
 }
