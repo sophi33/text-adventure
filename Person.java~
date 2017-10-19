@@ -5,11 +5,11 @@ public class Person{
 	// charatceristics of person
 	
 	private String name;
-	private String gender;
+	private String job;
 	private int age;
 	private String health;
 
-	//idea for game: you go around the college and the teachers are aliens!
+	//idea for game: alien apocalypse. u fight aliens. 
 	//health is because u can get shot by their ray guns 
 	//3 times before the alien chemical poison contaminates your blood stream
 	
@@ -19,16 +19,16 @@ public class Person{
 
 	public Person(){
 		this.name = "Casey";
-		this.gender = "female";
+		this.job = "student";
 		this.age = 19;
 		this.health = "100";
 	}
 
 
 	//loaded constructor
-	public Person(String name, String gender, int age, String health) {
+	public Person(String name, String job, int age, String health) {
 		this.name = name;
-		this.gender = gender;
+		this.job = job;
 		this.age = age;
 		this.health = health;
 	}
@@ -46,15 +46,15 @@ public class Person{
 	}
 
 
-	//gender
+	//job
 
-	public String getGender(){
-			return this.gender;
+	public String getJob(){
+			return this.job;
 
 	}
 
-	public void setGender(String gender){
-		this.gender = gender;
+	public void setJob(String job){
+		this.job = job;
 	}
 
 	//age
@@ -79,7 +79,5 @@ public class Person{
 	this.health = health;
 	}
 
-	public String toString(){
-		return "Name: " + this.name + " Gender: " + this.gender + " Age: " + this.age + " Health: " + this.health;
-	}
+
 }
