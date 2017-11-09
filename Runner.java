@@ -7,15 +7,36 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
-public class Runner {
-	//tesing with main
+		public class Runner {
+			//tesing with main
+		
+			public static void main(String[] args){
 
-	public static void main(String[] args){
-	
-
-		Splash splash = new Splash();
+						
+	Splash splash = new Splash();
 		splash.splashScreen();
 		
+		//declare Menu object
+		
+		StartMenu menu = new StartMenu();
+		
+			 //set up user input
+		Scanner input = new Scanner(System.in);
+		int option; // will hold user input for menu option
+		
+		//loop thru menu until user enters exit press 5 - exit
+
+
+				do{
+				 //draw menu
+				 menu.drawMenu();
+					 //get user input
+					option = input.nextInt();
+				   menu.selection(option);
+				 }while(option != 5);
+			
+			
+
 		
 		//declare to start getting user input
 		
@@ -61,8 +82,7 @@ public class Runner {
 		
 		System.out.println("You run into your favorite teacher, " + t.getName() + ", part of the " + t.getDepartment() + " department. Their skin looks a little green...");
 	
+	
 	}
-
 }
-		
 		
