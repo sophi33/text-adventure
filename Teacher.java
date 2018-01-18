@@ -1,15 +1,21 @@
 public class Teacher extends Person {
 
 
-//attributes
+	//attributes
 	private String department;
+	private boolean isAlien;
 
 	//constructors
 
 	public Teacher(){
 
-		this.department = "Life Siences";
+		this.department = "Life Sciences";
 
+	}
+
+	public Teacher(boolean isAlien, String department){
+		this.isAlien = isAlien;
+		this.department = department;
 	}
 	
 
@@ -27,6 +33,14 @@ public class Teacher extends Person {
 	public void setDepartment(String department){
 
 		this.department = department;
+	}
+
+	public boolean setIsAlien(boolean isAlien){
+		this.isAlien = isAlien;
+	}
+
+	public void getIsAlien(){
+		return this.getIsAlien;
 	}
 
 
