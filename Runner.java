@@ -15,6 +15,7 @@ import java.util.Scanner;
 			//SPLASH SCREEN
 			Splash splash = new Splash();
 			splash.splashScreen();
+			//splash.endSplashScreen();
 			
 			//declare Menu object
 			StartMenu menu = new StartMenu();
@@ -45,9 +46,9 @@ import java.util.Scanner;
 					
 					String name = scanner.next();
 					
-					System.out.println("Hi " + name + "!");
+					System.out.println("Hi " + name + "! It's a beautiful morning, and you're just arriving to class.");
 					
-					System.out.println("How many friends do you want?");
+					System.out.println("How many classmates are here today?");
 					
 					int numberOfFriends = scanner.nextInt();
 					
@@ -64,7 +65,7 @@ import java.util.Scanner;
 					
 					}			
 					
-					System.out.println("These are your friends!");
+					System.out.println("These are your classmates!");
 					
 					for(int i = 0; i < list.size(); i++){
 						System.out.println(list.get(i));
@@ -74,9 +75,9 @@ import java.util.Scanner;
 					t.setName("Professor Tuy");
 					t.setDepartment("Computer Science");
 					
-					System.out.println("You run into your favorite teacher, " + t.getName() 
+					System.out.println("Your favorite teacher, " + t.getName() 
 						+ ", part of the " + t.getDepartment() 
-						+ " department. Their skin looks a little green...");
+						+ " department walks in and starts teaching. \n From your front row seat, you notice that she \n hasn't blinked or taken a breath since she got in.\n Is she sick? There is a stomach bug going around...but \n this is a little unusual. Her skin is looking a bit purple, and you notice that \n it's because her veins are especially \n prominent – she looks as if she's been struck by lightening and electric volts surged across the \n surface of her epidermis. ");
 
 					option = 3;
 				}
@@ -88,9 +89,8 @@ import java.util.Scanner;
 			   	menu.selection(option);
 
 			 }while(option != 3);
-			
-		
-	
+
+
 	}
 }
 		
