@@ -77,7 +77,7 @@ import java.util.Scanner;
 					
 					System.out.println("Your favorite teacher, " + t.getName() 
 						+ ", part of the " + t.getDepartment() 
-						+ " department walks in and starts teaching. \n From your front row seat, you notice that she \n hasn't blinked or taken a breath since she got in.\n Is she sick? There is a stomach bug going around...but \n this is a little unusual. Her skin is looking a bit purple, and you notice that \n it's because her veins are especially \n prominent – she looks as if she's been struck by lightening and electric volts surged across the \n surface of her epidermis. ");
+						+ " department walks in and starts teaching. \n From your front row seat, you notice that she \n hasn't blinked or taken a breath since she got in.\n Is she sick? There is a stomach bug going around...but \n this is a little unusual. Her skin is looking a bit purple, and you notice that \n it's because her veins are especially \n prominent – she looks as if she's been struck by lightning and electric volts surged across the \n surface of her epidermis. ");
 
 					option = 3;
 				}
@@ -90,6 +90,18 @@ import java.util.Scanner;
 
 			 }while(option != 3);
 
+
+	Scanner newInput = new Scanner(System.in);
+
+		System.out.println("Casey plops her backpack down on the seat next to you. 'What's wrong with Professor Tuy?' she asks.'");
+		System.out.println("Press any key to continue");
+			newInput.next();
+		System.out.println("Suddenly, the professor runs into the middle of the room. She stares you down, and her eyes begin to grow wider and wider. As you look upon her in horror, her mouth expands until it envelops her entire face. Out emerges...");
+			newInput.next();
+		System.out.println("AN ALIEN!!");
+					newInput.next();
+	Splash AlienSplash = new Splash();
+			AlienSplash.splashScreen();
 
 	}
 }
