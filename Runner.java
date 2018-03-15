@@ -100,8 +100,9 @@ import java.util.Scanner;
 			newInput.next();
 		System.out.println("AN ALIEN!!");
 					newInput.next();
-	Splash AlienSplash = new Splash();
-			AlienSplash.splashScreen();
+			splash.AlienSplash();
+
+
 
 	}
 }
