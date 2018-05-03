@@ -13,7 +13,7 @@ import java.util.Scanner;
 		public static void main(String[] args){
 
 			//SPLASH SCREEN
-			Splash splash = new Splash();
+			splash splash = new splash();
 			splash.splashScreen();
 			//splash.endSplashScreen();
 			
